@@ -1,5 +1,10 @@
+gpu_mem=240
+cma_lwm=16
+cma_hwm=32
+cma_offline_start=16
+
 #dtoverlay=pi3-miniuart-bt
-framebuffer_depth=16
+#framebuffer_depth=16
 dtparam=i2c_arm
 dtoverlay=pwm-2chan-with-clk,pin=18,func=2,pin2=13,func2=4
 dtparam=spi
